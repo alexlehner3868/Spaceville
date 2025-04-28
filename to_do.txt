@@ -1,18 +1,71 @@
-- Core Game Design:
-	- project structure and setup
-	- player mechanics
-	- player creation
-	- player stats
-	- player movement + action
-	- what is the goal of the game?
-	- moving
-	- map
-	- farming (plant grow harvest trade etc.)
-	- what resources
-	- world
-	- items
-	- inventory
-	- market mechanic (trading/currency)
-	- NPCs
-	- different planets (underwater planet, sand one)
-	- save file (save + load)
+•	Project structure and setup
+	o	Create Godot project
+	o	Set up folders: scenes/, scripts/, assets/, ui/
+	o	Set up default environment (lighting, camera)
+•	Player mechanics
+	o	Player creation
+			Create CharacterBody2D or KinematicBody2D Player Scene
+			Create player sprite or placeholder art
+	o	Player stats
+			Set up stamina, health, and oxygen variables
+			Connect stats to HUD bars (ProgressBar, TextureProgressBar)
+	o	Player movement + actions
+			Implement walking/running using GDScript
+			Implement tool actions: planting, watering, harvesting
+•	What is the goal of the game?
+	o	Define main objective (e.g., survive, export crops, terraform, colonize)
+	o	Define win/loss conditions (e.g., oxygen depletion = game over)
+•	Moving
+	o	Fine-tune movement speed, animation transitions
+	o	Add walking, idle, and tool-use animations
+•	Map and World
+	o	Create TileSet (soil, rocks, alien grass, special tiles)
+	o	Create TileMap (basic planet surface)
+	o	Add collision to tiles
+	o	Set up farmable tiles with metadata ("can_farm" flag)
+•	Farming (plant, grow, harvest, trade)
+	o	Create Crop scenes (one per crop, with different growth stages)
+	o	Implement planting mechanic
+	o	Implement watering mechanic
+	o	Implement crop growth over time (using Timer nodes or variables)
+	o	Implement harvesting mechanic
+	o	Implement special soil bonuses (alien soil types)
+•	What resources?
+	o	List and define game resources: water, oxygen, seeds, crops, minerals, fuel
+•	Items
+	o	Define item types (seeds, tools, crops, tradable minerals)
+	o	Create Item data structure (e.g., dictionaries or resources)
+•	Inventory
+	o	Build inventory system with UI (GridContainer, ItemSlot scenes)
+	o	Add drag-and-drop or hotkey selection for tools/items
+•	Market mechanic (trading/currency)
+	o	Create NPC Trader scene
+	o	Implement shop menu (buy/sell seeds, upgrades, crops)
+	o	Create currency system (e.g., Credits)
+•	NPCs
+	o	Create basic friendly NPCs (traders, quest-givers)
+	o	Optional: add alien critters with simple AI (friendly/hostile behaviors)
+•	Different planets
+	o	Create additional TileMaps for different biomes:
+			Underwater planet (bubbles, aquatic crops)
+			Sand/desert planet (drought effects, hardy crops)
+	o	Implement planet switching (load different maps/scenes)
+•	Save file (save + load)
+	o	Save player position, inventory, crops, resources, time of day
+	o	Load save file on startup
+	o	Use FileAccess and save to JSON or ConfigFile format
+•	UI/UX
+	o	Build HUD (oxygen, health, stamina, currency)
+	o	Build Inventory UI
+	o	Build Day/Night cycle indicator
+	o	Build Save/Load screens
+•	Sounds and Effects
+	o	Add background music (ambient, different for each planet)
+	o	Add sound effects (footsteps, planting, harvesting, market sounds)
+	o	Add particle effects (dust, water splashes, meteor showers)
+•	Stretch Goals (for later)
+	o	Procedural planet generation
+	o	Ship upgrades for traveling faster
+	o	Colony building (greenhouses, water purifiers)
+	o	Multiplayer farming co-op (using Godot's multiplayer API)
+
