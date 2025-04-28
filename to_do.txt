@@ -1,0 +1,18 @@
+- Core Game Design:
+	- project structure and setup
+	- player mechanics
+	- player creation
+	- player stats
+	- player movement + action
+	- what is the goal of the game?
+	- moving
+	- map
+	- farming (plant grow harvest trade etc.)
+	- what resources
+	- world
+	- items
+	- inventory
+	- market mechanic (trading/currency)
+	- NPCs
+	- different planets (underwater planet, sand one)
+	- save file (save + load)
