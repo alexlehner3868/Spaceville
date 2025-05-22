@@ -1,11 +1,4 @@
-•	Project structure and setup
-	o	Create Godot project
-	o	Set up folders: scenes/, scripts/, assets/, ui/
-	o	Set up default environment (lighting, camera)
 •	Player mechanics
-	o	Player creation
-			Create CharacterBody2D or KinematicBody2D Player Scene
-			Create player sprite or placeholder art
 	o	Player stats
 			Set up stamina, health, and oxygen variables
 			Connect stats to HUD bars (ProgressBar, TextureProgressBar)

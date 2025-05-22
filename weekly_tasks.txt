@@ -1,0 +1,19 @@
+Natalia - 1:06:18 - 5 - Creating different styles of houses using tilesets and tilemap layers.
+Alex - 1:31:12 - 6 - Creating choppable trees for the player.
+Alex - 1:56:10 - 7 - Making your trees shake using a vertex shader.
+Alex - 2:04:06 - 8 - Creating mineable rocks for your player.
+Natalia - 2:16:13 - 9 - Using Y-sorting to allow character to move in front of and behind game objects.
+Natalia - 2:26:42 - 10 - Creating your first NPC: The chicken, complete with navigation agents.
+Natalia - 3:02:13 - 11 - Creating your second NPC: The cow, using reuseable components.
+Alex - 3:09:10 - 12 - Using navigation regions, navigation agents and agent avoidance.
+Alex - 3:19:25 - 13 - Creating and styling UI elements: building a tools panel.
+3:45:27 - 14 - Creating multiple collectables using reuseable components.
+3:55:59 - 15 - Creating and styling UI elements: Builing the inventory panel.
+4:15:19 - 16 - Creating the Day and Night component to bring your game to life.
+4:46:27 - 17 - Farming Crops: Creating plant and corn game objects.
+5:16:25 - 18 - Tilling the land: Adding dynamic tiles to your tilemap layer during gameplay.
+Natalia - Saving your game using save data components and resource inheritance.
+6:01:55 - 20 - Creating an interactive guide character you can talk to using dialogue.
+6:19:47 - 21 - Creating custom dialogue balloons and dialogue scripts for your guide character.
+6:53:21 - 22 - Creating and interactable chest that deducts items from your inventory and rewards you.
+7:23:44 - 23 - Creating your first level using all the scenes and components you've developed.
